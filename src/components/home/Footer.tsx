@@ -7,7 +7,17 @@ export default function Footer() {
     <footer className="py-8 border-t">
       <div className="mx-auto max-w-[1200px] px-4">
         <div className="text-center text-sm text-muted-foreground">
-          <p>{t("footer.copyright")}</p>
+          <p>
+            感谢魔方简历原创作者，
+            <a
+              href="https://github.com/JOYCEQL/magic-resume"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-primary"
+            >
+              https://github.com/JOYCEQL/magic-resume
+            </a>
+          </p>
         </div>
       </div>
     </footer>
