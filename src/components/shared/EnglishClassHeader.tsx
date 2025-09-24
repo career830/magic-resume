@@ -35,7 +35,7 @@ const EnglishClassHeader: React.FC = () => {
                       >
                         <span className="site-logo-img">
                           <Link
-                            href="/"
+                            href="https://www.englishclass.cn/"
                             className="custom-logo-link transparent-custom-logo"
                             rel="home"
                             itemProp="url"
@@ -50,8 +50,8 @@ const EnglishClassHeader: React.FC = () => {
                               decoding="async"
                             />
                           </Link>
-                          <Link
-                            href="/"
+                        <Link
+                          href="https://www.englishclass.cn/"
                             className="custom-logo-link ast-transparent-mobile-logo"
                             rel="home"
                             itemProp="url"
@@ -89,7 +89,7 @@ const EnglishClassHeader: React.FC = () => {
                                 className="main-header-menu ast-menu-shadow ast-nav-menu ast-flex submenu-with-border stack-on-mobile"
                               >
                                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
-                                  <Link href="/" className="menu-link">
+                                  <Link href="https://www.englishclass.cn/" className="menu-link">
                                     主页
                                   </Link>
                                 </li>
@@ -225,7 +225,7 @@ const EnglishClassHeader: React.FC = () => {
                           />
                         </Link>
                         <Link
-                          href="/"
+                          href="https://www.englishclass.cn/"
                           className="custom-logo-link ast-transparent-mobile-logo"
                           rel="home"
                           itemProp="url"
@@ -301,7 +301,7 @@ const EnglishClassHeader: React.FC = () => {
                           className="main-header-menu ast-menu-shadow ast-nav-menu ast-flex submenu-with-border stack-on-mobile"
                         >
                           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
-                            <Link href="/" className="menu-link">
+                            <Link href="https://www.englishclass.cn/" className="menu-link">
                               主页
                             </Link>
                           </li>
