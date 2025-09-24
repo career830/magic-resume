@@ -1,6 +1,6 @@
 {
   "common": {
-    "title": "Magic Resume",
+    "title": "AI Diven Resume Template and Optimization",
     "subtitle": "AI Driven Resume Editor",
     "description": "Magic Resume is an open source resume editor, free, privacy-first. No registration required, all data stored locally, support data backup and export, ensuring your resume data is always available.",
     "dashboard": "Dashboard",
@@ -11,7 +11,7 @@
   },
   "home": {
     "header": {
-      "title": "Magic Resume",
+      "title": "AI Diven Resume Template and Optimization",
       "startButton": "Get Started",
       "features": "Features",
       "pricing": "Pricing",
