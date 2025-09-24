@@ -10,6 +10,9 @@ import {
 import Document from "@/components/Document";
 import { locales } from "@/i18n/config";
 import { Providers } from "@/app/providers";
+import EnglishClassHeader from "@/components/shared/EnglishClassHeader";
+import EnglishClassFooter from "@/components/shared/EnglishClassFooter";
+import "@/components/shared/EnglishClassStyles.css";
 
 type Props = {
   children: ReactNode;
@@ -56,7 +59,17 @@ export default async function LocaleLayout({
   return (
     <Document locale={locale}>
       <NextIntlClientProvider messages={messages}>
-        <Providers>{children}</Providers>
+        <Providers>
+          <div className="site">
+            <EnglishClassHeader />
+            <div id="content" className="site-content">
+              <div className="ast-container">
+                {children}
+              </div>
+            </div>
+            <EnglishClassFooter />
+          </div>
+        </Providers>
       </NextIntlClientProvider>
     </Document>
   );
